@@ -1,13 +1,12 @@
 <%namespace name="tw" module="tw2.core.mako_util"/>
 <div ${tw.attrs(attrs=w.attrs)}> </div>
 
-<script >
-$(document).ready(function() {
+<script type="text/javascript">
 
-  $('#${w.id}').gmap3(${w.options | n}, 
-    function(e) {
-      console.log(e);
-    });
-  });
+$(document).ready(function() {
+  $('#${w.id}').width('${w.width}').height('${w.height}').gmap3(
+  	${w.options | n}
+   );
+});  
 
 </script>
