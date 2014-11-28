@@ -1,2 +1,3 @@
-recursive-include tw2/tw2.jqplugins.gmap3/templates *
-recursive-include tw2/tw2.jqplugins.gmap3/static *
+recursive-include tw2/jqplugins/gmap3/templates *
+recursive-include tw2/jqplugins/gmap3/static *
+include README.md
